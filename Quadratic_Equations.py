@@ -19,12 +19,12 @@ c_inp = st.sidebar.text_input('Enter C: ')
 def discriminant(a, b, c):
     if (b ** 2 - (4 * a * c)) < 0:
         root_u = (b ** 2 - (4 * a * c))
-        st.text('Discriminant is negative -\n roots are unreal.\nDiscriminant: ')
+        st.text('Discriminant is negative -\nroots are unreal.\nDiscriminant: ')
         st.text(root_u)
         return ''
     elif (b ** 2 - (4 * a * c)) == 0:
         root_z = (b ** 2 - (4 * a * c))
-        st.text('Discriminant is equal to zero -\n there is only 1 root.\nDiscriminant: ')
+        st.text('Discriminant is equal to zero -\nthere is only 1 root.\nDiscriminant: ')
         st.text(root_z)
         return ''
     else:
