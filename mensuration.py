@@ -3,6 +3,14 @@ import math
 from PIL import Image
 
 ################
+rect_img = Image.open('rect.png')
+sq_img = Image.open('square.png')
+rt_img = Image.open('rt.png')
+tr_img = Image.open('tr.png')
+et_img = Image.open('et.png')
+it_img = Image.open('it.jpg')
+
+
 rect_a_img = Image.open('rect_a.png')
 rect_d_img = Image.open('rect_diag.png')
 
